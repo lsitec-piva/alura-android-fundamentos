@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -13,27 +13,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:hint="Nome"
+            android:hint="@string/nome"
             android:inputType="textCapWords"
-            tools:ignore="HardcodedText" />
+            android:importantForAutofill="no" />
 
         <EditText
             android:id="@+id/activity_formulario_aluno_telefone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:hint="Telefone"
+            android:hint="@string/telefone"
             android:inputType="phone"
-            tools:ignore="HardcodedText" />
+            android:importantForAutofill="no" />
 
         <EditText
             android:id="@+id/activity_formulario_aluno_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
-            tools:ignore="HardcodedText" />
+            android:importantForAutofill="no" />
 
     </LinearLayout>
 </ScrollView>
